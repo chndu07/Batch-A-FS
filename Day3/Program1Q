@@ -1,0 +1,18 @@
+Sunder and Shiva are playing a word game where shiva gives a number 'k' and word 'w' to the sunder and 
+sunder removes the first letter from the start and places it at the end(k times)
+
+
+Sample Test Case - 1
+input = 
+hello
+2
+output = 
+llohe
+
+
+Sample Test Case-2
+
+input = 
+good
+3
+output = dgoo                   
