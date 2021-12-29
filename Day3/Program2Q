@@ -1,0 +1,32 @@
+Tubby a UKG Student has given a group of letters and His madam asked to see if the group of 
+letters consists of every letter in the English Aplhabet(a-z/A-Z)
+
+print true if it contains else print false
+
+Note: The input can contain whitespaces.
+
+
+Sample Test Case -1 
+
+input =The quick brown fox jumps over the lazy dog 
+output = true 
+
+Explanation 
+The given input line Contains all the characters from ‘a’ to ‘z’ or 'A' to 'Z'
+ 
+
+Sample Test Case -2 
+
+input =ThequickBrownfoxjumpsOverThelazy doG 
+output = true 
+
+Explanation 
+The given input line Contains all the characters from ‘a’ to ‘z’ or 'A' to 'Z' 
+
+Sample Test Case - 3
+
+input =AbcEfghuIJkzlMnOpqrsTuvWxyD
+output = true
+
+Explanation 
+The given input line Contains all the characters from ‘a’ to ‘z’ or 'A' to 'Z'               
