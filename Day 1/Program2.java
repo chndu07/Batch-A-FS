@@ -2,7 +2,7 @@ import java.util.*;
 class Test{
     
     public static void main(String args[]){
-        Set<Integer> s=new HashSet(Arrays.asList(97,101,105,111,117,65,69,73,79,85));
+        Set<Integer> s=new HashSet(Arrays.asList(32,97,101,105,111,117,65,69,73,79,85));
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
         StringBuilder sb=new StringBuilder( );
