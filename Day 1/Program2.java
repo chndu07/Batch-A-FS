@@ -1,23 +1,27 @@
 import java.util.*;
-class Test{
-    
-    public static void main(String args[]){
-        Set<Integer> s=new HashSet(Arrays.asList(32,97,101,105,111,117,65,69,73,79,85));
+class Test
+{
+    public static void main(String args[])
+    {
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
+        Set <Integer> s=new HashSet(Arrays.asList(32,97,101,105,111,117,65,69,73,79,85));
         StringBuilder sb=new StringBuilder( );
-        for(int i=0;i<str.length();i++){
+        for(int i=0;i<str.length();i++)
+        {
             int j=str.charAt(i);
-            if(s.contains(j)){
+            if(s.contains(j))
+            {
                 sb.append(str.charAt(i));
             }
-            else{
+            else
+            {
                 sb.append(str.charAt(i));
                 sb.append('#');
                 sb.append(str.charAt(i));
             }
+            
         }
-         System.out.println(sb);
+        System.out.println(sb);
     }
-    
 }
