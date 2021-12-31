@@ -1,23 +1,30 @@
 import java.util.*;
-class Test{
-    public static void main(String args[])
-    {
+public class program{
+    public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
-        String st = sc.next();
-        String str="";
-        
-        for(int i=0;i<st.length();i++)
+        String str = sc.nextLine();
+        char arr[]=new char[str.length()];
+        char k=0;
+        for(int i=0;i<arr.length;i++)
         {
-            char c =st.charAt(i);
-            if( (c=='a' || c=='e' || c=='i' || c=='u' || c=='o' || c=='A' || c=='E' || c=='I' || c=='U' || c=='O'))
+            if(str.charAt(i)=='a' || str.charAt(i)=='e'|| str.charAt(i)=='i'|| str.charAt(i)=='o' || str.charAt(i)=='u'
+            ||str.charAt(i)=='A'||str.charAt(i)=='E'||str.charAt(i)=='I'||str.charAt(i)=='O'||str.charAt(i)=='U')
             {
-                str = str+'V';
+                arr[i]='V';
             }
-            else{
-                str = str+'C';
+            else
+            {
+                arr[i]='C';
             }
         }
-        str = str.replaceAll("(.)\\1{1,}","$1");
-        System.out.println(str);
+        for(int i=1;i<arr.length;i++)
+        {
+            if(k!=arr[i])
+            {
+                k=arr[i];
+                System.out.print(k);
+            }
+                
+        }
     }
 }
